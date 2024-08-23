@@ -4,13 +4,12 @@
 
 | US-№ | Verbindlichkeit | Art          | Beschreibung                                                       |
 | ---- | --------------- | ------------ | ------------------------------------------------------------------|
-| 0    | Muss            | Funktional   | Als User muss ich in der Lage sein, die Webseite bedienen können. |
-| 1    | Muss            | Funktional   | Als User muss ich in der Lage sein, eine zufällige Zahl zu generieren. |
-| 2    | Muss            | Funktional   | Als User muss ich eine Zahl eingeben können. |
-| 3    | Muss            | Funktional   | Als User muss ich das Ergebnis einsehen können. |
-| 4    | Muss            | Funktional   | Als User muss ich Tipps zur aktuellen Zufallszahl einsehen können. |
-| 5    | Muss            | Funktional   | Als User muss ich in der Lage sein, das Spiel neuzustarten. |
-| 6    | Kann            | Qualitativ   | Als User kann ich eine einfache Webseite erleben. |
+| 0    | Muss            | Funktional   | Als User muss ich in der Lage sein, die App zu öffnen. |
+| 1    | Muss            | Funktional   | Als User muss ich in der Lage sein, verschiedene Funktionen zu navigieren. |
+| 2    | Muss            | Funktional   | Als User muss ich in der Lage sein, Kontakte zu erstellen. |
+| 3    | Muss            | Funktional   | Als User muss ich in der Lage sein, vorhandene Kontakte zu verwalten. |
+| 4    | Muss            | Funktional   | Als User muss ich in der Lage sein, Fehlermeldungen einszusehen. |
+| 5    | Kann            | Qualitativ   | Als User kann ich eine einfache Webseite erleben. |
 
 
 
@@ -19,16 +18,17 @@
 
 | Testfall-Nummer | Ausgangslage                                                                  | Eingabe                                  | Erwartete Ausgabe                                                     |
 | --------------- | ----------------------------------------------------------------------------- | ---------------------------------------- | --------------------------------------------------------------------- |
-| 0.1             | Der User befindet sich auf der URL-Leiste und möchte die Webseite öffnen.                      | URL eingeben und Enter drücken.    | Die Webseite wird geladen und der Besucher befindet sich auf der Startseite mit einem leeren Spiel.    |
-| 1.1             | Der User befindet sich auf der Startseite und möchte eine zufällige Zahl generieren.                    | Auf dem Startbutton klicken. | Es wird nach einer zufällige Zahl gefragt. |
-| 2.1             | Der User wird nach einer Zahl gefragt und möchte eine Zahl eingeben.                     | Eine Zahl im Textbox eingeben.                      | Die Zahl wird im Textbox gespeichert.     |
-| 2.2             | Der User hat eine Zahl eingegeben und möchte sie überprüfen.                               | Den Button zur Überprüfung verwenden.                                           | Ein Pop-Up Dialog wird angezeigt.                                           |
-| 3.1             | Der User hat eine falsche Zahl eingegeben.                               | Den Button zur Überprüfung verwenden.                                       | Falsche Guess wird gemeldet                                    |
-| 3.2             | Der User hat eine korrekte Zahl eingegeben und möchte sie überprüfen.                               | Den Button zur Überprüfung verwenden.                                               | Das Spiel wird mit der Gewinnmeldung beendet.                                         |
-| 4.1             | Der User hat eine tiefere Zahl erratet.               | Den Button zur Überprüfung verwenden.     | Es wird gezeigt, dass die korrekte Zahl höher ist als die erratene Zahl.     |
-| 4.2             | Der User hat eine höhere Zahl erratet.               | Den Button zur Überprüfung verwenden.   | Es wird gezeigt, dass die korrekte Zahl tiefer ist als die erratene Zahl.     |
-| 5.1             | Der User befindet sich im Spiel und möchte dies neustarten. | Auf dem Button Neustartbutton klicken.         | Das Spiel von der Startseite wird neugestartet mit der Meldung von der eigentliche Zahl.         |
-| 6.1             | Der User navigiert die Webseite. | Nutzung der Webseite.         | Der User versteht die einfache Funktionsweise der Webseite.         
+| 0.1             | Der User öffnet die App.                      | Doppelklick auf Programm.    | Die Startseite wird angezeigt    |
+| 1.1             | Der User informiert sich über den App.                     | Klick auf "Info" Button in der Navigationsbar.                      | Meldung wird angezeigt zum Bestätigen.     |
+| 1.2             | Der User beendet die App.                               | Klick auf "Beenden" Button.                                           | App wird beendet.                                           |
+| 1.3             | Der User sieht die Kontaktliste an.                               | Klick auf "Kontakten" Button in der Navigationsbar.                                       | Kontaktliste bzw. Startseite wird angezeigt                                    |
+| 2.1             | Der User erstellt ein Kontakt.                    | Klick auf "Erstellen" Button. | Pop-Up Formular mit Informationsangaben zur Erstellung von Kontakten wird angezeigt und wird erstellt. |
+| 2.2             | Der User bricht den Prozess ab.               | "Klick auf "Beenden" Button.     | Zurück zur Startseite.     |
+| 3.3             | Der User bearbeitet Kontaktinformatin.               | Klick auf "Bearbeiten" Button.   |    Formular zur bearbeitung wird angezeigt  |
+| 3.4             | Der User löscht ein Kontakt. |Klick auf "Löschen" Button.         | Kontakt wird aus der Liste entfernt         |
+| 4.1             | Der User gibt Falsche Eingabe ein. | Falsche Input.         | Fehlermeldung wird angezeigt. |   
+| 5.1             | Der User kann einfach navigieren. | Einfache GUI.         | Der User ist zufrieden. |        
+
 
 ## Planen
 
