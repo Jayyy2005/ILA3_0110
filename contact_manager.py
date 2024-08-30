@@ -3,15 +3,12 @@ from tkinter import END
 
 # Contactlist
 contactlist = [
-    ['Person One', '0123'],
-    ['Person Two', '0234'],
-    ['Person Three', '0345']
 ]
 
 # Select
 def Selected(select):
     if len(select.curselection()) == 0:
-        messagebox.showerror("Error", "Please Select the Name")
+        messagebox.showerror("Fehler", "Bitte wählen Sie einen Kontakt aus")
         return None
     else:
         return int(select.curselection()[0])
@@ -21,9 +18,9 @@ def AddContact(Name, Number, select):
     if Name.get() != "" and Number.get() != "":
         contactlist.append([Name.get(), Number.get()])
         Select_set(select)
-        messagebox.showinfo("Confirmation", "Successfully Added New Contact")
+        messagebox.showinfo("Bestätigung", "Neuer Kontakt wurde erfolgreich hinzugefügt!")
     else:
-        messagebox.showerror("Error", "Please fill in the information")
+        messagebox.showerror("Fehler", "Bitte füllen Sie aus")
 
 # Update detail
 def UpdateDetail(Name, Number, select):
@@ -32,15 +29,15 @@ def UpdateDetail(Name, Number, select):
         if Name.get() and Number.get():
             contactlist[index] = [Name.get(), Number.get()]
             Select_set(select)
-            messagebox.showinfo("Confirmation", "Successfully Updated Contact")
+            messagebox.showinfo("Bestätigung", "Kontaktinformation wurde erfolgreich aktualisiert!")
         else:
-            messagebox.showerror("Error", "Please fill in the information")
+            messagebox.showerror("Fehler", "Bitte füllen Sie aus")
 
 # Delete contact
 def Delete_Entry(select):
     index = Selected(select)
     if index is not None:
-        result = messagebox.askyesno('Confirmation', 'Do you want to delete the selected contact?')
+        result = messagebox.askyesno('Bestätigung', 'Möchten Sie wirklich den ausgewählten Kontakt löschen?')
         if result == True:
             del contactlist[index]
             Select_set(select)
