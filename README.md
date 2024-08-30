@@ -34,13 +34,13 @@
 | AP-№ | Zuständig | Beschreibung                            | Geplante Zeit | Frist        |
 | ---- | --------- | --------------------------------------- | ------------- | ------------ |
 | 0.0  | Raviraj   | Erstellung der Projektdokumentation    | 3 Stunden     | 16.08.2024   |
-| 1.A  | Raviraj   | Einrichtung Gruppenprojekt auf GitHub     | 1 Stunde     | 16.08.2024  |
-| 2.A  | Manser   | Einrichtung VSS und LiveShare         | 1 Stunde    | 16.08.2024   |
-| 3.A  | Manser   | Replay-Funktion mit JavaScript  | 1 Stunde | 16.08.2024   |
-| 3.B  | Greub   | NumberGenerator-Funktion mit JavaScript | 2 Stunden | 16.08.2024   |
-| 4.A  | Manser   | Index-HTML erstellen         | 2 Stunden     | 16.08.2024   |
-| 5.A  | Greub   | Milestones auf Github erstellen        | 1 Stunde    | 16.08.2024   |
-| 5.B  | Greub   | Issues auf Github erstellen        | 1 Stunde    | 16.08.2024   |
+| 1.A  | Raviraj   | Recherchieren von Python     | 1 Stunde     | 16.08.2024  |
+| 2.A  | Raviraj   | Kontaktliste Basisfunktionen         | 1 Stunde    | 16.08.2024   |
+| 3.A  | Raviraj   | GUI Anpassen  | 1 Stunde | 16.08.2024   |
+| 3.B  | Raviraj   | JSON für Speicherung | 2 Stunden | 16.08.2024   |
+| 4.A  | Raviraj   | Kontaktliste erweitern         | 2 Stunden     | 16.08.2024   |
+| 5.A  | Raviraj   | Mahara Portfolio erstellen        | 1 Stunde    | 16.08.2024   |
+| 5.B  | Raviraj   | Projektdokumentation        | 1 Stunde    | 16.08.2024   |
 
 ## 3 Entscheiden
 
@@ -52,12 +52,12 @@ Keine
 | ---- | --------- | ------------- | ----------------- | ---------- |
 | 0.0  | Raviraj   | 2 Stunden      | 2 Stunden         | 16.08.2024 |
 | 1.A  | Raviraj   | 1 Stunde      | 1 Stunde      | 16.08.2024 |
-| 2.A  | Manser   | 1 Stunde      | 1 Stunde         | 16.08.2024 |
-| 3.A  | Manser   | 1 Stunde      | 1 Stunde        | 16.08.2024 |
-| 3.B  | Greub   | 2 Stunden      | 2 Stunden         | 16.08.2024 |
-| 4.A  | Manser   | 1 Stunde     | 1 Stunde        | 16.08.2024 |
-| 5.A  | Greub   | 1 Stunde      | 1 Stunde         | 16.08.2024 |
-| 5.B  | Greub   | 1 Stunde      | 1 Stunde         | 16.08.2024 |
+| 2.A  | Raviraj   | 1 Stunde      | 1 Stunde         | 16.08.2024 |
+| 3.A  | Raviraj   | 1 Stunde      | 1 Stunde        | 16.08.2024 |
+| 3.B  | Raviraj   | 2 Stunden      | 2 Stunden         | 16.08.2024 |
+| 4.A  | Raviraj   | 1 Stunde     | 1 Stunde        | 16.08.2024 |
+| 5.A  | Raviraj   | 1 Stunde      | 1 Stunde         | 16.08.2024 |
+| 5.B  | Raviraj   | 1 Stunde      | 1 Stunde         | 16.08.2024 |
 
 ## 5 Kontrollieren
 
