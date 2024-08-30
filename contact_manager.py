@@ -1,12 +1,14 @@
 from tkinter import messagebox
 from tkinter import END
 
+# Contactlist
 contactlist = [
     ['Person One', '0123'],
     ['Person Two', '0234'],
     ['Person Three', '0345']
 ]
 
+# Select
 def Selected(select):
     if len(select.curselection()) == 0:
         messagebox.showerror("Error", "Please Select the Name")
@@ -14,6 +16,7 @@ def Selected(select):
     else:
         return int(select.curselection()[0])
 
+# Add contact
 def AddContact(Name, Number, select):
     if Name.get() != "" and Number.get() != "":
         contactlist.append([Name.get(), Number.get()])
@@ -22,6 +25,7 @@ def AddContact(Name, Number, select):
     else:
         messagebox.showerror("Error", "Please fill in the information")
 
+# Update detail
 def UpdateDetail(Name, Number, select):
     index = Selected(select)
     if index is not None:
@@ -32,6 +36,7 @@ def UpdateDetail(Name, Number, select):
         else:
             messagebox.showerror("Error", "Please fill in the information")
 
+# Delete contact
 def Delete_Entry(select):
     index = Selected(select)
     if index is not None:

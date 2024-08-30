@@ -22,7 +22,7 @@ scroll.config(command=select.yview)
 scroll.pack(side=RIGHT, fill=Y)
 select.pack(side=LEFT, fill=BOTH, expand=1)
 
-# Define buttons, labels, and entry widgets
+# Design
 Label(root, text='Name', font=("Times new roman", 22, "bold"), bg='SlateGray3').place(x=30, y=20)
 Entry(root, textvariable=Name, width=30).place(x=200, y=30)
 Label(root, text='Contact No.', font=("Times new roman", 20, "bold"), bg='SlateGray3').place(x=30, y=70)
@@ -35,7 +35,7 @@ Button(root, text="VIEW", font='Helvetica 18 bold', bg='#e8c1c7', command=lambda
 Button(root, text="RESET", font='Helvetica 18 bold', bg='#e8c1c7', command=EntryReset).place(x=50, y=390)
 Button(root, text="EXIT", font='Helvetica 24 bold', bg='tomato', command=root.destroy).place(x=250, y=470)
 
-# Initialize Listbox with contacts
+# Initialize listbox with contacts
 Select_set(select)
 
 root.mainloop()
