@@ -9,7 +9,7 @@
 | 2    | Muss            | Funktional   | Als User muss ich in der Lage sein, Kontakte zu erstellen. |
 | 3    | Muss            | Funktional   | Als User muss ich in der Lage sein, vorhandene Kontakte zu verwalten. |
 | 4    | Muss            | Funktional   | Als User muss ich in der Lage sein, Fehlermeldungen einszusehen. |
-| 5    | Kann            | Qualitativ   | Als User kann ich eine einfache Webseite erleben. |
+| 5    | Kann            | Qualitativ   | Als User kann ich eine einfache Applikation erleben. |
 
 
 
@@ -19,8 +19,7 @@
 | --------------- | --------------------------------------------- | ---------------------------------------------- | ---------------------------------------------------------------------- |
 | 0.1             | Der Benutzer öffnet die App.                  | Doppelklick auf das Programm.                  | Die Startseite wird angezeigt.                                         |
 | 0.2             | Der Benutzer beendet die App.                 | Klick auf den "Beenden"-Button.                | Die App wird beendet.                                                  |
-| 1.1             | Der Benutzer möchte Informationen zur App.    | Klick auf "Info" in der Navigationsleiste.     | Ein Informationsdialog zur Bestätigung wird angezeigt.                 |
-| 1.2             | Der Benutzer möchte die Kontaktliste einsehen.| Klick auf "Kontakte" in der Navigationsleiste. | Die Kontaktliste bzw. die Startseite wird angezeigt.                   |
+| 1.1             | Der Benutzer möchte die Kontaktliste einsehen.| Klick auf "Kontakte" in der Navigationsleiste. | Die Kontaktliste bzw. die Startseite wird angezeigt.                   |
 | 2.1             | Der Benutzer möchte Kontaktinformationen eingeben, um ein Kontakt zu erstellen.    | Klick auf den "Erstellen"-Button.              | Ein Pop-up-Formular zur Eingabe von Kontaktinformationen wird angezeigt und der Kontakt wird erstellt. |
 | 2.2             | Der Benutzer erstellt einen neuen Kontakt.    | Klick auf den "Fertig"-Button im Kontaktformular.              | Erstellte Kontakt befindet sich in der Liste . |
 | 3.1             | Der Benutzer bearbeitet Kontaktinformationen. | Klick auf den "Bearbeiten"-Button.             | Ein Formular zur Bearbeitung der Kontaktinformationen wird angezeigt.  |
