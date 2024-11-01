@@ -46,6 +46,11 @@
 
 Keine
 
+## Use Case Diagramm
+
+![Untitled Diagram drawio](https://github.com/user-attachments/assets/bfc669be-a7c5-4d18-981d-5bfb6d135a18)
+
+
 ## 4 Realisieren
 
 | AP-№ | Zuständig | Geplante Zeit | Tatsächliche Zeit | Datum      |
