@@ -131,7 +131,7 @@ def download_contacts(contactlist):
             messagebox.showinfo("Download", f"Kontakte erfolgreich gespeichert als '{downloads_path}'")
         
         except Exception as e:
-            # Fehlernachricht anzeigen, falls etwas schiefgeht
+            # Fehlernachricht anzeigen
             messagebox.showerror("Fehler", f"Fehler beim Speichern der Datei: {str(e)}")
     else:
         messagebox.showwarning("Warnung", "Keine Kontakte zum Speichern vorhanden.")
